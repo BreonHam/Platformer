@@ -1,0 +1,28 @@
+.background    { background-size:url ("desert.jpeg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava         { background: BlanchedAlmond; }
+.wall          { background: BurlyWood;   }
+
+.actor  { position: absolute;  }
+.diamond { background-image: url("diamond.gif");
+           background-size: 25px 25px;}
+.coin   { background-image: url("coin.gif"); 
+          background-size: 20px 20px;}
+.player { background: rgb(64, 64, 64); }
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
